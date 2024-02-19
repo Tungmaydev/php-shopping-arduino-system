@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Skitter - Slideshow for anytime!</title>
+	
+	<link href="css/styles.css" type="text/css" media="all" rel="stylesheet" />
+
+	<!-- Skitter Styles -->
+	<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	
+	<!-- Skitter JS -->
+	<script type="text/javascript" language="javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.skitter.min.js"></script>
+	
+	<!-- Init Skitter -->
+	<script type="text/javascript" language="javascript">
+		$(document).ready(function() {
+			$('.box_skitter_large').skitter({
+				theme: 'clean',
+				numbers_align: 'center',
+				progressbar: true, 
+				dots: true, 
+				preview: true
+			});
+		});
+	</script>
+</head>
+<!--<body style="margin:0;padding:0">
+	<div id="content" style="margin:0;padding:0">
+		<div class="border_box" style="margin:0;padding:0">
+			<div class="box_skitter box_skitter_large" style="margin:0;padding:0">
+				<ul>
+					<li><a href="#cube"><img src="images/example/BG_01.jpg" class="cube" /></a><div class="label_text"><p>cube</p></div></li>
+					<li><a href="#cubeRandom"><img src="images/example/BG_01 (2).jpg" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
+					<li><a href="#block"><img src="images/example/BG_01 (3).jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>-->
+<body style="margin:0;padding:0; width: 100%;">
+    <!--div id="content" style="margin:0;padding:0; width: 100%;"-->
+        <!--div class="border_box" style="margin:0;padding:0;width: 100%;"-->
+            <div class="box_skitter box_skitter_large" style="margin:0;padding:0; width: 100%;">
+                <ul>
+                    <li><a style="width: 100%;" href="#cubeRandom"><img style="width: 100%;" src="images/branner5.jpg" class="cubeRandom" ></a></li>
+                    <li><a style="width: 100%;" href="#block"><img style="width: 100%;" src="images/branner5.jpg" class="block"></a></li>
+                    <li><a style="width: 100%;" href="#cirelesRotate"><img style="width: 100%;" src="images/branner5.jpg"  class="cirelesRotate"></a></li>
+                </ul>
+            </div>
+        <!--/div>
+    <!--/div-->
+</body>
+</html>
