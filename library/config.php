@@ -4,8 +4,8 @@
     session_start();
     
     $host = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "xxxx";
+    $password = "xxxx";
     $database = "arduino";  
     $link = mysqli_connect($host, $username, $password, $database);
     

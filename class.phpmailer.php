@@ -74,7 +74,7 @@ class PHPMailer {
    * Sets the From email address for the message.
    * @var string
    */
-  public $From              = 'arduinobangkok@gmail.com';
+  public $From              = 'xxxxxxxxxxxxxxxxx@gmail.com';
 
   /**
    * Sets the From name of the message.

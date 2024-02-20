@@ -315,7 +315,7 @@
 
                                      <div align="left" style="margin:10px; margin-bottom:20px; color:  #009999;">
                                          &nbsp;&nbsp;&nbsp;คุณจะได้รับอีเมลยืนยันการแจ้งชำระเงินจาก ทางร้าน Arduino Bangkok ทุกครั้งเมื่อกดปุ่มแจ้งชำระเงินเสร็จเรียบร้อย หากไม่ได้รับอีเมลยืนยัน<br>
-                                            กรุณาติดต่อทางร้าน  โทร. <a href='contact.php' >086-947-4272</a> หรือส่งอีเมลมาที่ arduinobangkok@gmail.com</a>
+                                            กรุณาติดต่อทางร้าน  โทร. <a href='contact.php' >xxxxxxxxx</a> หรือส่งอีเมลมาที่ XXXXXXX@gmail.com</a>
 
                                      </div></br></br>
                 <?php  

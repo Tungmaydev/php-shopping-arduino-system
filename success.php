@@ -127,45 +127,45 @@
 
                         //ถ้าต้องการรัน mail กับ 000hostจริง	   
 
-                                        $To       = $email_login;
-                                        $Subject  = "รายการสั่งซื้อ #:$invoice";
-                                       include './mail_success.php';
-                                       include "send_mail.php";
-                                          if($flgSend){
-                                                echo "Email Sending.";
-                                          }
-                                          else{
-                                                echo "Email Can Not Send.";
-                                          }  
+                            $To       = $email_login;
+                            $Subject  = "รายการสั่งซื้อ #:$invoice";
+                            include './mail_success.php';
+                            include "send_mail.php";
+                                if($flgSend){
+                                    echo "Email Sending.";
+                                }
+                                else{
+                                    echo "Email Can Not Send.";
+                                }  
 
 
-
-                        // ถ้าต้องการรัน mail กับ locohost			  
-//                             include ("class.phpmailer.php");
-//                               $subject_body  = "รายการสั่งซื้อ #:$invoice";
-//                                 include './mail_success.php';
-//                                      $mail = new PHPMailer(); 
-//                                      $mail->IsSMTP(); 
-//                                      $mail->IsHTML(true);
-//                                      $mail->Host = "ssl://smtp.gmail.com";
-//                                      $mail->Port = 465; 
-//                                      $mail->SMTPAuth = true;
-//                                      $mail->Username = "arduinobangkok@gmail.com";
-//                                      $mail->Password = "ninjapanda4628";
-//                                      $mail->Sender = "arduinobangkok@gmail.com";
-//                                      $mail->FromName = "Arduion Bangkok";// $email;
-//                                      $mail->Subject  = $subject_body; //$subject_body;
-//                                      $mail->Body     = $Message; //$message_body;
-//                                      $mail->AltBody  = "Alternating Name"; // $message_body;
-//                                      $mail->MsgHTML($Message); //$message_body);
-//                                      $mail->AddAddress($email_login); 
-//
-//                                    if(!$mail->send()){
-//                                         echo "Mailer Error: " . $mail->ErrorInfo;
-//                                    } 
-//                                     else {
-//                                         echo "Message has been sent successfully";
-//                                    } 
+                    // ถ้าต้องการรัน mail กับ locohost	 
+                                // include ("class.phpmailer.php");
+                                // $subject_body  = "การยืนยันการลงทะเบียน";
+                                // include './mail_register.php';
+                                // $mail = new PHPMailer(); 
+                                // $mail->IsSMTP(); 
+                                // $mail->IsHTML(true);
+                                // $mail->Host = "ssl://smtp.gmail.com";
+                                // $mail->Port = 465; 
+                                // $mail->SMTPAuth = true;
+                                // $mail->Username = "xxxxxxxxxxxxxx@gmail.com";
+                                // $mail->Password = "xxxxxxxxxxxxxx";
+                                // $mail->Sender   = "xxxxxxxxxxx@gmail.com";
+                                // $mail->FromName = "Arduino Bangkok";// $email;
+                                // $mail->Subject  = $subject_body; //$subject_body;
+                                // $mail->Body     = $Message; //$message_body;
+                                // $mail->AltBody  = "Alternating Name"; // $message_body;
+                                // $mail->MsgHTML($Message); //$message_body);
+                                // $mail->AddAddress($email_login); 
+                                // $result = $mail->Send(); 
+                                
+                                // if(!$mail->send()) {
+                                //     echo "Mailer Error: " . $mail->ErrorInfo;
+                                // }
+                                // else{
+                                // echo "Message has been sent successfully";
+                                // }
                ?>
 
                    <br>

@@ -137,10 +137,10 @@ if(!isset($_POST['submit'])){
                        $mail->Host = "ssl://smtp.gmail.com";
                        $mail->Port = 465; 
                        $mail->SMTPAuth = true;
-                       $mail->Username = "arduinobangkok@gmail.com";
-                       $mail->Password = "ninjapanda4628";
+                       $mail->Username = "xxxxxxxxxx@gmail.com";
+                       $mail->Password = "xxxxxxxxxxxx";
 
-                       $mail->Sender = "arduinobangkok@gmail.com";
+                       $mail->Sender = "xxxxxxxxxxx@gmail.com";
                        $mail->FromName = "Arduion Bangkok";// $email;
                        $mail->Subject  = $subject_body; //$subject_body;
                        $mail->Body     = $message_body; //$message_body;
