@@ -166,7 +166,7 @@
                                 <tr>
                                     <td style="font-size: 20px;text-align:left;">E-mail</td>
                                     <td style="color:#999;text-align:left; ">
-                                        <input  style="font-size:18px; color: #595959;height: 20px;" name="txtShippingEmail" type="email" class="box" id="txtShippingEmail" size="30" maxlength="50" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" value="tungmay.parichat.821@gmail.com">
+                                        <input  style="font-size:18px; color: #595959;height: 20px;" name="txtShippingEmail" type="email" class="box" id="txtShippingEmail" size="30" maxlength="50" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" value="xxxxxxxxxx@gmail.com">
                                     </td>
                                 </tr>
                             </table>
